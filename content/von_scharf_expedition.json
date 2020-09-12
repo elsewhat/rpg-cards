@@ -2,19 +2,13 @@
     {
       "count": 1,
       "color": "darkgreen",
-      "title": "Fader Martin",
+      "title": "Volkhard Von Scharf",
       "icon": "eagle-emblem",
       "contents": [
-        "subtitle | Member of the Southern High Council of Myrmidia ",
-        "warhammer_stats| 5|42|35|5|6|20|75|2|59|72|68|65|30|65",
-        "property | Description | Determined follower of Myrmidia and mentor to the part",
-        "property | Special rules | Divine connection",
-        "property | Actions| Couragous, compassionate and demanding",
-        "property | Weapon | Lance on horseback - Mace on foot",
+        "subtitle | Leader - Von Scharf expedition ",
+        "property | Home town | Marienburg",
+        "property | Description | Heir to the Von Scharf trading house.",
         "",
-        "fill | 20",
-        "property | Magic equipment | Magic Lance, Magic Mace of shrapnel (leaves spikes in body and regrows new ones)",
-        "fill | 1",
         "",
         "bgpicture | http://127.0.0.1:8080/img/fader_martin.jpg | 114| 0.6"
       ],
@@ -22,5 +16,105 @@
         "creature",
         "humanoid"
       ]
-    }
+    },
+    
+      {
+      "count": 1,
+      "color": "darkgreen",
+      "title": "Master Doctor R. Huston",
+      "icon": "eagle-emblem",
+      "contents": [
+        "subtitle | Doctor - Von Scharf expedition ",
+        "property | Home town | Marienburg",
+        "property | Description | Volkhard's doctor.",
+        "",
+        "",
+        "bgpicture | http://127.0.0.1:8080/img/fader_martin.jpg | 114| 0.6"
+      ],
+      "tags": [
+        "creature",
+        "humanoid"
+      ]
+    },
+    
+    
+      {
+      "count": 1,
+      "color": "darkgreen",
+      "title": "Baron Aubrey Penhew",
+      "icon": "eagle-emblem",
+      "contents": [
+        "subtitle | Co-leader - Von Scharf expedition ",
+        "property | Home town | Altdorf",
+        "property | Description | Baron with land west of Altdorf",
+        "",
+        "",
+        "bgpicture | http://127.0.0.1:8080/img/fader_martin.jpg | 114| 0.6"
+      ],
+      "tags": [
+        "creature",
+        "humanoid"
+      ]
+    },
+    
+    
+      {
+      "count": 1,
+      "color": "darkgreen",
+      "title": "Hypatia Masters",
+      "icon": "eagle-emblem",
+      "contents": [
+        "subtitle | Member - Von Scharf expedition ",
+        "property | Home town | Marienburg",
+        "property | Description | Socialte with a strong penance for languages.",
+        "",
+        "",
+        "bgpicture | http://127.0.0.1:8080/img/fader_martin.jpg | 114| 0.6"
+      ],
+      "tags": [
+        "creature",
+        "humanoid"
+      ]
+    },
+    
+    
+      {
+      "count": 1,
+      "color": "darkgreen",
+      "title": "Brass Brady",
+      "icon": "eagle-emblem",
+      "contents": [
+        "subtitle | Security - Von Scharf expedition ",
+        "property | Home town | Unknown",
+        "property | Description | Volkhard's bodyguard. Former military",
+        "",
+        "",
+        "bgpicture | http://127.0.0.1:8080/img/fader_martin.jpg | 114| 0.6"
+      ],
+      "tags": [
+        "creature",
+        "humanoid"
+      ]
+    },
+    
+    
+    
+      {
+      "count": 1,
+      "color": "darkgreen",
+      "title": "M'Weru",
+      "icon": "eagle-emblem",
+      "contents": [
+        "subtitle | Member - Von Scharf expedition ",
+        "property | Home town | Unknown",
+        "property | Description | Arrived to Marienburg's social scene a few years ago",
+        "",
+        "",
+        "bgpicture | http://127.0.0.1:8080/img/fader_martin.jpg | 114| 0.6"
+      ],
+      "tags": [
+        "creature",
+        "humanoid"
+      ]
+    },
 ]
