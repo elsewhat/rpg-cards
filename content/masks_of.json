@@ -298,4 +298,83 @@
         "humanoid"
       ]
     },
+    
+    {
+      "count": 1,
+      "color": "darkgreen",
+      "title": "7",
+      "icon": "eagle-emblem",
+      "contents": [
+        "subtitle | Secretary for Staadtholder of Marienburg",
+        "property | Home town | Marienburg",
+        "property | Description | TBD",
+        "",
+        "",
+        "bgpicture | http://127.0.0.1:8080/img/fader_martin.jpg | 114| 0.6"
+      ],
+      "tags": [
+        "creature",
+        "humanoid"
+      ]
+    },
+    
+    {
+      "count": 1,
+      "color": "darkgreen",
+      "title": "Luitpold van Rremerswijk",
+      "icon": "eagle-emblem",
+      "contents": [
+        "subtitle | Staadtholder of Marienburg",
+        "property | Home town | Marienburg",
+        "property | Description | TBD",
+        "",
+        "",
+        "bgpicture | http://127.0.0.1:8080/img/fader_martin.jpg | 114| 0.6"
+      ],
+      "tags": [
+        "creature",
+        "humanoid"
+      ]
+    },
+    
+    
+    {
+      "count": 1,
+      "color": "darkgreen",
+      "title": "Brandywine",
+      "icon": "eagle-emblem",
+      "contents": [
+        "subtitle | Merchant of the Empire",
+        "property | Species | Halfling",
+         "property | Home town | Empire",
+        "property | Description | TBD",
+        "",
+        "",
+        "bgpicture | http://127.0.0.1:8080/img/fader_martin.jpg | 114| 0.6"
+      ],
+      "tags": [
+        "creature",
+        "humanoid"
+      ]
+    },
+    
+    
+    {
+      "count": 1,
+      "color": "darkgreen",
+      "title": "Deceased noble",
+      "icon": "eagle-emblem",
+      "contents": [
+        "subtitle | Perished at Rijkers island",
+        "property | Family | Unknown",
+          "property | Description | The mysterious identify of the naked man is sought by the party. From the library, they learn the tapestery of the mirror image room is from the Palace at Altdorf. The man had tattoos of various filled and half-filled circles on his shoulders. On one of his severed fingers a ring was found. A black ring on a gold frame, with the symbol of a deer and a metallic liquied inside the etchings of symbol.",
+        "",
+        "",
+        "bgpicture | http://127.0.0.1:8080/img/fader_martin.jpg | 114| 0.6"
+      ],
+      "tags": [
+        "creature",
+        "humanoid"
+      ]
+    },
 ]
