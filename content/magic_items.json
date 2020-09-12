@@ -1,0 +1,165 @@
+[
+    {
+      "count": 1,
+      "color": "DodgerBlue",
+      "title": "Belt of Dwarvenkind",
+      "icon": "eagle-emblem",
+      "contents": [
+        "subtitle | Magic item",
+        "property | Effect| Advantage interaction/persuassion with dwarves",
+        "property | Effect | Speak, read and write Dwarvish",
+        "property | Effect | Resistance against poison",
+        "property |Effect | 20% chance to grow thick dwarven beard every morning",
+        "fill | 40",
+        "property | Found | Shrine at Khadar-Helgad",
+        "fill | 1",
+        "",
+        "bgpicture | http://127.0.0.1:8080/img/belt_dwarvenkind.jpeg| 125| 0.7"
+      ],
+      "tags": [
+        "creature",
+        "humanoid"
+      ]
+    },
+    {
+      "count": 1,
+      "color": "DodgerBlue",
+      "title": "Shield of charging",
+      "icon": "eagle-emblem",
+      "contents": [
+        "subtitle | Magic item",
+        "property | Effect | Charge multiple creatures in a line (-10% pr creature)",
+        "property | Effect| Cannot be hit while charging with shield",
+        "property | Effect | Normal sized creatures charged must make strength check or be knocked prone",
+        "",
+        "fill | 40",
+        "property | Found | Shrine at Khadar-Helgad",
+        "fill | 1",
+        "",
+        "bgpicture | http://127.0.0.1:8080/img/shield_charging.jpg| 150| 0.7"
+      ],
+      "tags": [
+        "creature",
+        "humanoid"
+      ]
+    },
+    {
+      "count": 1,
+      "color": "DodgerBlue",
+      "title": "Bowstring of Fire",
+      "icon": "eagle-emblem",
+      "contents": [
+        "subtitle | Magic item",
+        "property | Effect | Add 1D4 of fire damage",
+        "property | Effect| 3 Charges pr day",
+        "",
+        "fill | 40",
+        "property | Found | Shrine at Khadar-Helgad",
+        "fill | 1",
+        "",
+        "bgpicture | http://127.0.0.1:8080/img/bowstring_of_fire.jpg| 130| 0.7"
+      ],
+      "tags": [
+        "creature",
+        "humanoid"
+      ]
+    },
+    {
+      "count": 1,
+      "color": "DodgerBlue",
+      "title": "Khazalid's Wathcer",
+      "icon": "eagle-emblem",
+      "contents": [
+        "subtitle | Magic item",
+        "property | Effect | Store 1 spell in crystal",
+        "property | Effect| Cast Telekinesis - 3 charges pr day<br/>Move objects up to 100KG<br/>Move small creatues 15 meters<br/>Move normal creatures 5 meters (if strength test fails)",
+        "",
+        "fill | 40",
+        "property | Found | Shrine at Khadar-Helgad",
+        "fill | 1",
+        "",
+        "bgpicture | http://127.0.0.1:8080/img/staff_telekinesis3.jpg| 140| 08"
+      ],
+      "tags": [
+        "creature",
+        "humanoid"
+      ]
+    },
+    {
+      "count": 1,
+      "color": "Navy",
+      "title": "Gift of Tongues",
+      "icon": "spell-book",
+      "contents": [
+        "subtitle | Spell - Petty",
+        "property | Effect | Caster can understand and speak any one language",
+        "property | Duration| 10 minutes",
+        "property | Magic Points | 1",
+        "",
+        "",
+        "bgpicture | http://127.0.0.1:8080/img/gift_tongues.jpg| 130| 0.57"
+      ],
+      "tags": [
+        "creature",
+        "humanoid"
+      ]
+    },
+    {
+      "count": 1,
+      "color": "Navy",
+      "title": "Sounds",
+      "icon": "spell-book",
+      "contents": [
+        "subtitle | Spell - Petty",
+        "property | Effect | Cause a sound of some kind to be created<br>Choose type of sound and volume",
+        "property | Limitation | Cannot create speech",
+        "property | Range | 20 meters (indicates point of origin)",
+        "property | Duration| 10 seconds",
+        "property | Magic Points | 1",
+        "",
+        "bgpicture | http://127.0.0.1:8080/img/sounds.jpg| 190| 0.7"
+      ],
+      "tags": [
+        "creature",
+        "humanoid"
+      ]
+    },
+    {
+      "count": 1,
+      "color": "DarkOrange",
+      "title": "Doomstone - Light",
+      "icon": "stone-sphere",
+      "contents": [
+        "subtitle | Power - Doomstone of fire",
+        "property | Effect #1 | Cast on object to create a lantern-like light",
+        "property | Effect #2 | Create the appearance of up to 5 distant lights<br>Caster can concentrate to move lights",
+        "property | Duration| 1 hour",
+        "",
+        "bgpicture | http://127.0.0.1:8080/img/light.jpg| 190| 0.7"
+      ],
+      "tags": [
+        "creature",
+        "humanoid"
+      ]
+    },
+    {
+      "count": 1,
+      "color": "DarkOrange",
+      "title": "Doomstone - Fire",
+      "icon": "stone-sphere",
+      "contents": [
+        "subtitle | Power - Doomstone of fire",
+        "property | Effect | Create a flame in your hand or to object you touch",
+        "property | Size | Sphere of 0.5 meter radius",
+        "property | Roll | WP to control flame",
+        "property | Range | Touch",
+        "property | Duration| 1 minute",
+        "",
+        "bgpicture | http://127.0.0.1:8080/img/fire.jpg| 150| 0.7"
+      ],
+      "tags": [
+        "creature",
+        "humanoid"
+      ]
+    }
+  ] 

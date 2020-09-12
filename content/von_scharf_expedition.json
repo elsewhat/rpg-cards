@@ -1,0 +1,26 @@
+[
+    {
+      "count": 1,
+      "color": "darkgreen",
+      "title": "Fader Martin",
+      "icon": "eagle-emblem",
+      "contents": [
+        "subtitle | Member of the Southern High Council of Myrmidia ",
+        "warhammer_stats| 5|42|35|5|6|20|75|2|59|72|68|65|30|65",
+        "property | Description | Determined follower of Myrmidia and mentor to the part",
+        "property | Special rules | Divine connection",
+        "property | Actions| Couragous, compassionate and demanding",
+        "property | Weapon | Lance on horseback - Mace on foot",
+        "",
+        "fill | 20",
+        "property | Magic equipment | Magic Lance, Magic Mace of shrapnel (leaves spikes in body and regrows new ones)",
+        "fill | 1",
+        "",
+        "bgpicture | http://127.0.0.1:8080/img/fader_martin.jpg | 114| 0.6"
+      ],
+      "tags": [
+        "creature",
+        "humanoid"
+      ]
+    }
+]

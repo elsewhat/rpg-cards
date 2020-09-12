@@ -1,0 +1,170 @@
+[
+    {
+      "count": 1,
+      "color": "darkgreen",
+      "title": "Fader Martin",
+      "icon": "eagle-emblem",
+      "contents": [
+        "subtitle | Member of the Southern High Council of Myrmidia ",
+        "warhammer_stats| 5|42|35|5|6|20|75|2|59|72|68|65|30|65",
+        "property | Description | Determined follower of Myrmidia and mentor to the part",
+        "property | Special rules | Divine connection",
+        "property | Actions| Couragous, compassionate and demanding",
+        "property | Weapon | Lance on horseback - Mace on foot",
+        "",
+        "fill | 20",
+        "property | Magic equipment | Magic Lance, Magic Mace of shrapnel (leaves spikes in body and regrows new ones)",
+        "fill | 1",
+        "",
+        "bgpicture | http://127.0.0.1:8080/img/fader_martin.jpg | 114| 0.6"
+      ],
+      "tags": [
+        "creature",
+        "humanoid"
+      ]
+    },
+    {
+      "count": 1,
+      "color": "darkgreen",
+      "title": "Belgrim Axebreaker",
+      "icon": "eagle-emblem",
+      "contents": [
+        "subtitle | Member of the Southern High Council of Myrmidia ",
+        "warhammer_stats| 3|49|20|6|7|17|35|2|28|42|51|70|30|35",
+        "property | Description | Dwarf elder and determined follower of Myrmidia ",
+        "property | Special rules | Divine connection",
+        "property | Personality | Pessimistic and outspoken",
+        "property | Weapon | Double bladed axe",
+        "",
+        "fill | 20",
+        "property | Magic equipment | Double bladed axe",
+        "fill | 1",
+        "",
+        "bgpicture | http://127.0.0.1:8080/img/belgrim.jpg | 114| 0.6"
+      ],
+      "tags": [
+        "creature",
+        "humanoid"
+      ]
+    },
+    {
+      "count": 1,
+      "color": "darkgreen",
+      "title": "Vexiliha",
+      "icon": "eagle-emblem",
+      "contents": [
+        "subtitle | Member of the Southern High Council of Myrmidia ",
+        "warhammer_stats| 6|45|60|5|6|20|75|3|52|40|65|60|40|40",
+        "property | Description | Warrior monk and determined follower of Myrmidia ",
+        "property | Special rules | Divine connection",
+        "property | Personality | Impatient introvert",
+        "property | Weapon | Daggers",
+        "",
+        "fill | 20",
+        "property | Magic equipment | Magic daggers",
+        "fill | 1",
+        "",
+        "bgpicture | http://127.0.0.1:8080/img/vex.jpg | 114| 0.6"
+      ],
+      "tags": [
+        "creature",
+        "humanoid"
+      ]
+    },
+    {
+      "count": 1,
+      "color": "darkgreen",
+      "title": "Gordon Greyskull",
+      "icon": "eagle-emblem",
+      "contents": [
+        "subtitle | Leader of the Southern High Council of Myrmidia ",
+        "warhammer_stats| 4|55|30|6|6|25|55|3|40|70|65|65|40|50",
+        "property | Description | Warrior and determined follower of Myrmidia ",
+        "property | Special rules | Divine connection",
+        "property | Personality | Deceisive and authoriative",
+        "property | Weapon | Two-handed sword",
+        "",
+        "fill | 20",
+        "property | Magic equipment | Two-handed sword",
+        "fill | 1",
+        "",
+        "bgpicture | http://127.0.0.1:8080/img/benson.jpg | 114| 0.6"
+      ],
+      "tags": [
+        "creature",
+        "humanoid"
+      ]
+    },
+    {
+      "count": 1,
+      "color": "darkgreen",
+      "title": "Bokenkampf Phelwood",
+      "icon": "eagle-emblem",
+      "contents": [
+        "subtitle | Member of the Southern High Council of Myrmidia ",
+        "warhammer_stats| 3|30|50|3|4|14|40|2|30|30|67|40|70|30",
+        "property | Description | Tinkerer and determined follower of Myrmidia ",
+        "property | Special rules | Divine connection",
+        "property | Personality | Eccentric scientist",
+        "property | Weapon | War machines and gunslinger",
+        "",
+        "fill | 20",
+        "property | Magic equipment | Guns and war machines",
+        "fill | 1",
+        "",
+        "bgpicture | http://127.0.0.1:8080/img/bokenkampf.jpg | 114| 0.6"
+      ],
+      "tags": [
+        "creature",
+        "humanoid"
+      ]
+    },
+    {
+      "count": 1,
+      "color": "darkgreen",
+      "title": "Scanlan",
+      "icon": "eagle-emblem",
+      "contents": [
+        "subtitle | Member of the Southern High Council of Myrmidia ",
+        "warhammer_stats| 3|40|40|3|4|12|65|2|49|42|67|45|70|60",
+        "property | Description | Gnome magician and determined follower of Myrmidia ",
+        "property | Special rules | Divine connection",
+        "property | Personality | Overly optimistic",
+        "property | Weapon | Wooden sticks and magic",
+        "",
+        "fill | 20",
+        "property | Magic equipment | Staff",
+        "fill | 1",
+        "",
+        "bgpicture | http://127.0.0.1:8080/img/scanlan2.png| 105| 0.7"
+      ],
+      "tags": [
+        "creature",
+        "humanoid"
+      ]
+    },
+    {
+      "count": 1,
+      "color": "darkgreen",
+      "title": "Benson Wick",
+      "icon": "eagle-emblem",
+      "contents": [
+        "subtitle | Member of the Southern High Council of Myrmidia ",
+        "warhammer_stats| 5|55|40|6|6|22|65|3|61|42|59|59|40|40",
+        "property | Description | Warrior and determined follower of Myrmidia ",
+        "property | Special rules | Divine connection",
+        "property | Personality | Calculated and silent",
+        "property | Weapon | Sword",
+        "",
+        "fill | 20",
+        "property | Magic equipment | Sword",
+        "fill | 1",
+        "",
+        "bgpicture | http://127.0.0.1:8080/img/gordon.png| 98| 0.7"
+      ],
+      "tags": [
+        "creature",
+        "humanoid"
+      ]
+    }
+  ] 
