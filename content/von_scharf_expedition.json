@@ -1,120 +1,110 @@
 [
-    {
-      "count": 1,
-      "color": "darkgreen",
-      "title": "Volkhard Von Scharf",
-      "icon": "eagle-emblem",
-      "contents": [
-        "subtitle | Leader - Von Scharf expedition ",
-        "property | Home town | Marienburg",
-        "property | Description | Heir to the Von Scharf trading house.",
-        "",
-        "",
-        "bgpicture | http://127.0.0.1:8080/img/fader_martin.jpg | 114| 0.6"
-      ],
-      "tags": [
-        "creature",
-        "humanoid"
-      ]
-    },
-    
-      {
-      "count": 1,
-      "color": "darkgreen",
-      "title": "Master Doctor R. Huston",
-      "icon": "eagle-emblem",
-      "contents": [
-        "subtitle | Doctor - Von Scharf expedition ",
-        "property | Home town | Marienburg",
-        "property | Description | Volkhard's doctor.",
-        "",
-        "",
-        "bgpicture | http://127.0.0.1:8080/img/fader_martin.jpg | 114| 0.6"
-      ],
-      "tags": [
-        "creature",
-        "humanoid"
-      ]
-    },
-    
-    
-      {
-      "count": 1,
-      "color": "darkgreen",
-      "title": "Baron Aubrey Penhew",
-      "icon": "eagle-emblem",
-      "contents": [
-        "subtitle | Co-leader - Von Scharf expedition ",
-        "property | Home town | Altdorf",
-        "property | Description | Baron with land west of Altdorf",
-        "",
-        "",
-        "bgpicture | http://127.0.0.1:8080/img/fader_martin.jpg | 114| 0.6"
-      ],
-      "tags": [
-        "creature",
-        "humanoid"
-      ]
-    },
-    
-    
-      {
-      "count": 1,
-      "color": "darkgreen",
-      "title": "Hypatia Masters",
-      "icon": "eagle-emblem",
-      "contents": [
-        "subtitle | Member - Von Scharf expedition ",
-        "property | Home town | Marienburg",
-        "property | Description | Socialte with a strong penance for languages.",
-        "",
-        "",
-        "bgpicture | http://127.0.0.1:8080/img/fader_martin.jpg | 114| 0.6"
-      ],
-      "tags": [
-        "creature",
-        "humanoid"
-      ]
-    },
-    
-    
-      {
-      "count": 1,
-      "color": "darkgreen",
-      "title": "Brass Brady",
-      "icon": "eagle-emblem",
-      "contents": [
-        "subtitle | Security - Von Scharf expedition ",
-        "property | Home town | Unknown",
-        "property | Description | Volkhard's bodyguard. Former military",
-        "",
-        "",
-        "bgpicture | http://127.0.0.1:8080/img/fader_martin.jpg | 114| 0.6"
-      ],
-      "tags": [
-        "creature",
-        "humanoid"
-      ]
-    },
-    
-    
-    
-      {
-      "count": 1,
-      "color": "darkgreen",
-      "title": "M'Weru",
-      "icon": "eagle-emblem",
-      "contents": [
-        "subtitle | Member - Von Scharf expedition ",
-        "property | Home town | Unknown",
-        "property | Description | Arrived to Marienburg's social scene a few years ago",
-        "",
-        "",
-        "bgpicture | http://127.0.0.1:8080/img/fader_martin.jpg | 114| 0.6"
-      ],
-      "tags": [
-        "creature",
-        "humanoid"
-      ]
-    },
+  {
+    "count": 1,
+    "color": "maroon",
+    "title": "Volkhard Von Scharf",
+    "icon": "journey",
+    "contents": [
+      "subtitle | Leader - Von Scharf expedition ",
+      "property | Home town | Marienburg",
+      "property | Description | Heir to the Von Scharf trading house.",
+      "",
+      "",
+      "bgpicture | https://i.imgur.com/i2k43Ug.jpg | 100| 0.8"
+    ],
+    "tags": [
+      "creature",
+      "humanoid"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "maroon",
+    "title": "Master Doctor R. Huston",
+    "icon": "journey",
+    "contents": [
+      "subtitle | Doctor - Von Scharf expedition ",
+      "property | Home town | Marienburg",
+      "property | Description | Volkhard's doctor.",
+      "",
+      "",
+      "bgpicture | https://i.imgur.com/vGoWW19.jpg | 90| 0.8"
+    ],
+    "tags": [
+      "creature",
+      "humanoid"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "maroon",
+    "title": "Baron Aubrey Penhew",
+    "icon": "journey",
+    "contents": [
+      "subtitle | Co-leader - Von Scharf expedition ",
+      "property | Home town | Altdorf",
+      "property | Description | Baron with land west of Altdorf",
+      "",
+      "",
+      "bgpicture | https://i.imgur.com/qzvE2SS.jpg | 90| 0.8"
+    ],
+    "tags": [
+      "creature",
+      "humanoid"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "maroon",
+    "title": "Hypatia Masters",
+    "icon": "journey",
+    "contents": [
+      "subtitle | Member - Von Scharf expedition ",
+      "property | Home town | Marienburg",
+      "property | Description | Socialte with a strong penance for languages.",
+      "",
+      "",
+      "bgpicture | https://i.imgur.com/FTP8Yc8.jpg | 90| 0.8"
+    ],
+    "tags": [
+      "creature",
+      "humanoid"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "maroon",
+    "title": "Brass Brady",
+    "icon": "journey",
+    "contents": [
+      "subtitle | Security - Von Scharf expedition ",
+      "property | Home town | Unknown",
+      "property | Description | Volkhard's bodyguard. Former military",
+      "",
+      "",
+      "bgpicture | https://i.imgur.com/xJWZzaI.jpg | 80 | 0.8"
+    ],
+    "tags": [
+      "creature",
+      "humanoid"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "maroon",
+    "title": "M'Weru",
+    "icon": "journey",
+    "contents": [
+      "subtitle | Member - Von Scharf expedition ",
+      "property | Home town | Unknown",
+      "property | Description | Arrived to Marienburg's social scene a few years ago",
+      "",
+      "",
+      "bgpicture | https://i.imgur.com/yInhjNk.jpg | 114| 0.6"
+    ],
+    "tags": [
+      "creature",
+      "humanoid"
+    ]
+  }
 ]
