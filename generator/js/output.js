@@ -1,6 +1,7 @@
 function receiveMessage(event) {
     var html = event.data;
     insertCards(html);
+    card_post_processing();
 }
 
 function insertCards(html) {

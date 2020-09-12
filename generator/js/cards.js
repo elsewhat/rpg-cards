@@ -9,10 +9,10 @@ function card_default_options() {
         default_icon: "ace",
         default_title_size: "13",
         page_size: "A4",
-        page_rows: 3,
-        page_columns: 3,
+        page_rows: 2,
+        page_columns: 2,
         card_arrangement: "doublesided",
-        card_size: "25x35",
+        card_size: "35x50",
         card_count: null,
         icon_inline: true,
         rounded_corners: true
@@ -120,7 +120,13 @@ function card_element_inline_icon(params, card_data, options) {
 function card_element_picture(params, card_data, options) {
     var url = params[0] || "";
     var height = params[1] || "";
-    return '<div class="card-element card-picture" style ="background-image: url(&quot;' + url + '&quot;); background-size: contain; background-position: center;background-repeat: no-repeat; height:' + height + 'px"></div>';
+    return '<div class="card-element card-picture" style ="background-image: url(&quot;' + url + '&quot;)!important; background-size: contain; background-position: center;background-repeat: no-repeat; height:' + height + 'px"></div>';
+}
+
+function card_element_background_picture(params, card_data, options) {
+    var url = params[0] || "";
+    var height = params[1] || "";
+    return '';
 }
 
 function card_element_ruler(params, card_data, options) {
@@ -240,6 +246,57 @@ function card_element_dndstats(params, card_data, options) {
     return result;
 }
 
+function card_element_warhammerstats(params, card_data, options) {
+    var stats = [0, 0, 0, 0, 0, 0,0,0, 0, 0,0,0];
+    for (var i = 0; i < 11; i++) {
+        if(params.length > i){
+          stats[i] = parseInt(params[i], 10) || 0;
+        }
+    }
+
+    var result = "";
+    result += '<table class="wh-card-stats">';
+    result += '    <tbody><tr>';
+    result += '      <th class="wh-card-stats-header">M</th>';
+    result += '      <th class="wh-card-stats-header">WS</th>';
+    result += '      <th class="wh-card-stats-header">BS</th>';
+    result += '      <th class="wh-card-stats-header">S</th>';
+    result += '      <th class="wh-card-stats-header">T</th>';
+    result += '      <th class="wh-card-stats-header">I</th>';    
+    result += '    </tr>';
+    result += '    <tr>';
+    result += '      <td class="wh-card-stats-cell">' + stats[0] + '</td>';
+    result += '      <td class="wh-card-stats-cell">' + stats[1]  +'</td>';
+    result += '      <td class="wh-card-stats-cell">' + stats[2] + '</td>';
+    result += '      <td class="wh-card-stats-cell">' + stats[3]  +'</td>';
+    result += '      <td class="wh-card-stats-cell">' + stats[4]  +'</td>';
+    result += '      <td class="wh-card-stats-cell">' + stats[5]  +'</td>';    
+    result += '    </tr>';
+    result += '    <tr>';
+    result += '      <td class="wh-card-stats-header">Ag</td>';
+    result += '      <td class="wh-card-stats-header">Dex</td>';
+    result += '      <td class="wh-card-stats-header">Int</td>';
+    result += '      <td class="wh-card-stats-header">WP</td>';
+    result += '      <td class="wh-card-stats-header">Fel</td>';
+    result += '      <td class="wh-card-stats-header">?</td>';
+    result += '    </tr>';
+    result += '    <tr>';
+    result += '      <td class="wh-card-stats-cell">' + stats[6] + '</td>';
+    result += '      <td class="wh-card-stats-cell">' + stats[7]  +'</td>';
+    result += '      <td class="wh-card-stats-cell">' + stats[8] + '</td>';
+    result += '      <td class="wh-card-stats-cell">' + stats[9]  +'</td>';
+    result += '      <td class="wh-card-stats-cell">' + stats[10]  +'</td>';
+    result += '      <td class="wh-card-stats-cell">' + stats[11]  +'</td>';    
+    result += '    </tr>';
+    result += '  </tbody>';
+    result += '</table>';
+    return result;    
+    result += '  </tbody>';
+    result += '</table>';
+    return result;
+}
+
+
 function card_element_bullet(params, card_data, options) {
     var result = "";
     result += '<ul class="card-element card-bullet-line">';
@@ -275,6 +332,7 @@ var card_element_generators = {
     boxes: card_element_boxes,
     description: card_element_description,
     dndstats: card_element_dndstats,
+    warhammer_stats: card_element_warhammerstats,    
     text: card_element_text,
     center: card_element_center,
     justify: card_element_justify,
@@ -283,6 +341,7 @@ var card_element_generators = {
     section: card_element_section,
     disabled: card_element_empty,
     picture: card_element_picture,
+    bgpicture: card_element_background_picture,
     icon: card_element_inline_icon
 };
 
@@ -292,7 +351,25 @@ var card_element_generators = {
 
 function card_generate_contents(contents, card_data, options) {
     var result = "";
-    result += '<div class="card-content-container">';
+
+    //Add background to top element
+    var containerAttrs = '';
+    contents.map(function (obj){
+      if(obj.startsWith('bgpicture')){
+        var parts = card_data_split_params(obj);
+        var element_params = parts.splice(1);
+        containerAttrs=' data-image="'+element_params[0]+'" ' ;
+        if(element_params.length>1){
+          containerAttrs+=' data-top="'+element_params[1]+'"';
+        }
+        if(element_params.length>2){
+          containerAttrs+=' data-opacity="'+element_params[2]+'"';
+        }
+
+      }
+    });
+
+    result += '<div class="card-content-container" '+containerAttrs+ '>';
     result += contents.map(function (value) {
         var parts = card_data_split_params(value);
         var element_name = parts[0];
@@ -320,6 +397,14 @@ function card_generate_color_style(color, options) {
     return 'style="color:' + color + '; border-color:' + color + '; background-color:' + color + '"';
 }
 
+function card_generate_color_style_back(color, options) {
+    return 'style="color:' + color + '; border-color:rgba(0,0,0,0.2); background-color: rgba(0,0,0,0.1)"';
+}
+
+function card_generate_color_style_back_icon(color, options) {
+    return 'style="color:' + color + '; border-color:rgba(0,0,0,0.0); background-color: rgba(0,0,0,0.1)"';
+}
+
 function card_generate_color_gradient_style(color, options) {
     return 'style="background: radial-gradient(ellipse at center, white 20%, ' + color + ' 120%)"';
 }
@@ -340,12 +425,15 @@ function card_generate_front(data, options) {
 
 function card_generate_back(data, options) {
     var color = card_data_color_back(data, options);
-    var style_color = card_generate_color_style(color, options);
+    //var style_color = card_generate_color_style(color, options);
+    var style_color = card_generate_color_style_back(color, options);
+    var style_color_icon =  card_generate_color_style_back_icon(color, options);
+
 	var url = data.background_image;
 	var background_style = "";
 	if (url)
 	{
-		background_style = 'style = "background-image: url(&quot;' + url + '&quot;); background-size: contain; background-position: center; background-repeat: no-repeat;"';
+		background_style = 'style = "background-image: url(&quot;' + url + '&quot;)!important; background-size: contain; background-position: center; background-repeat: no-repeat;"';
 	}
 	else
 	{
@@ -355,12 +443,12 @@ function card_generate_back(data, options) {
 
     var result = "";
     console.log('options.rounded_corners', options.rounded_corners);
-    result += '<div class="card card-size-' + options.card_size + ' ' + (options.rounded_corners ? 'rounded-corners' : '') + '" ' + style_color + '>';
+    result += '<div class="card card-container-back card-size-' + options.card_size + ' ' + (options.rounded_corners ? 'rounded-corners' : '') + '" ' + style_color + '>';
     result += '  <div class="card-back" ' + background_style + '>';
 	if (!url)
 	{
 		result += '    <div class="card-back-inner">';
-		result += '      <div class="card-back-icon icon-' + icon + '" ' + style_color + '></div>';
+		result += '      <div class="card-back-icon icon-' + icon + '" ' + style_color_icon + '></div>';
 		result += '    </div>';
 	}
     result += '  </div>';
@@ -378,6 +466,48 @@ function card_generate_empty(count, options) {
 
     return card_repeat(result, count);
 }
+
+
+
+function card_post_processing(){
+    //align this code with card_post_processing.js
+    var counter=0;
+    try {
+      //cleanup old rules
+      for(var i=document.styleSheets[0].rules.length-1 ; i>=0; i--){
+          if(document.styleSheets[0].rules[i].cssText.startsWith(".bg-card")){
+            console.log("Removing rule " + document.styleSheets[0].rules[i].cssText);
+            document.styleSheets[0].removeRule(i);  
+          }
+        }
+      }
+    catch(ex){}
+  
+    $('.card-content-container[data-image]').each(function (index){
+      try {
+        var imageAttr = $(this).attr('data-image');
+        var topAttr=  $(this).attr('data-top');
+        var opacityAttr=  $(this).attr('data-opacity');
+        var className = 'bg-card-'+index;
+        debugger;
+        document.styleSheets[0].addRule('.'+className+':after', 'background-image: url(' +imageAttr+ ')');
+        if(topAttr!= null){
+          document.styleSheets[0].addRule('.'+className+':after', 'background-position-y: ' +topAttr + 'px !important');
+        }
+        if(opacityAttr!= null){
+          document.styleSheets[0].addRule('.'+className+':after', 'opacity: ' +opacityAttr + ' !important');
+        }
+        $(this).addClass(className);
+        counter++;
+      }catch(ex){
+        console.log("Failed to update bgpicture");
+        console.log(ex);
+      }
+    })
+    console.log('Added '  + counter + ' background images to cards');
+    
+  }
+
 
 // ============================================================================
 // Functions that generate pages of cards
@@ -480,8 +610,8 @@ function card_pages_generate_style(options) {
 
 function card_pages_generate_html(card_data, options) {
     options = options || card_default_options();
-    var rows = options.page_rows || 3;
-    var cols = options.page_columns || 3;
+    var rows = options.page_rows || 2;
+    var cols = options.page_columns || 2;
 
     // Generate the HTML for each card
     var front_cards = [];

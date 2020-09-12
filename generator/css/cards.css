@@ -9,6 +9,45 @@
     overflow: hidden;
 }
 
+.card-container-back {
+    border:0;
+  }
+
+.wh-card-stats-header {
+    text-align: center;
+    padding: 0;
+    width: 14.28%;
+    background-color: black;
+    color:white;
+    font-weight: bold;    
+}
+.wh-card-stats-cell {
+    text-align: center;
+    padding: 0;
+    border: 1px solid grey;
+}
+
+.wh-card-stats {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.card-content-container::after {
+    content:"";
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y:100px;
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 2;
+}
+
 .card.rounded-corners {
     border-radius: 4px;
 }
@@ -30,7 +69,7 @@
 /*     background-color: white; */
     border-radius: 4mm;
     border-color: inherit;
-    margin: 3mm;
+    margin: 2px;
     flex: 1;
     display: flex;
 }
