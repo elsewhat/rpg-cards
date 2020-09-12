@@ -1,0 +1,301 @@
+[
+    {
+      "count": 1,
+      "color": "darkgreen",
+      "title": "Silas N'Kwame",
+      "icon": "eagle-emblem",
+      "contents": [
+        "subtitle | Owner | House of Kapersky ",
+        "property | Home town | Marienburg",
+        "property | Description | Older man",
+        "",
+        "",
+        "bgpicture | http://127.0.0.1:8080/img/fader_martin.jpg | 114| 0.6"
+      ],
+      "tags": [
+        "creature",
+        "humanoid"
+      ]
+    },
+    
+      {
+      "count": 1,
+      "color": "darkgreen",
+      "title": "Erica Von Scharf",
+      "icon": "eagle-emblem",
+      "contents": [
+        "subtitle | Heir - Von Scharf family",
+        "property | Home town | Marienburg",
+        "property | Description | TBD",
+        "",
+        "",
+        "bgpicture | http://127.0.0.1:8080/img/fader_martin.jpg | 114| 0.6"
+      ],
+      "tags": [
+        "creature",
+        "humanoid"
+      ]
+    },
+    
+    
+      {
+      "count": 1,
+      "color": "darkgreen",
+      "title": "Dietrich Emerson",
+      "icon": "eagle-emblem",
+      "contents": [
+        "subtitle | Manager - Emerson import",
+        "property | Home town | Marienburg",
+        "property | Description | TBD",
+        "",
+        "",
+        "bgpicture | http://127.0.0.1:8080/img/fader_martin.jpg | 114| 0.6"
+      ],
+      "tags": [
+        "creature",
+        "humanoid"
+      ]
+    },
+    
+    
+      {
+      "count": 1,
+      "color": "darkgreen",
+      "title": "Professor Sanchez",
+      "icon": "eagle-emblem",
+      "contents": [
+        "subtitle | Professor - Marienburg university",
+        "property | Home town | Marienburg",
+        "property | Description | Socialte with a strong penance for languages.",
+        "",
+        "",
+        "bgpicture | http://127.0.0.1:8080/img/fader_martin.jpg | 114| 0.6"
+      ],
+      "tags": [
+        "creature",
+        "humanoid"
+      ]
+    },
+    
+    
+      {
+      "count": 1,
+      "color": "darkgreen",
+      "title": "Herr Flugel",
+      "icon": "eagle-emblem",
+      "contents": [
+        "subtitle | Investigator - Marienburg",
+        "property | Home town | Marienburg",
+        "property | Description | TBD",
+        "",
+        "",
+        "bgpicture | http://127.0.0.1:8080/img/fader_martin.jpg | 114| 0.6"
+      ],
+      "tags": [
+        "creature",
+        "humanoid"
+      ]
+    },
+    
+    
+    
+      {
+      "count": 1,
+      "color": "darkgreen",
+      "title": "Augustus Rosseau",
+      "icon": "eagle-emblem",
+      "contents": [
+        "subtitle | Leader - Rosseau expedition ",
+        "property | Home town | Unknown",
+        "property | Description | TBD",
+        "",
+        "",
+        "bgpicture | http://127.0.0.1:8080/img/fader_martin.jpg | 114| 0.6"
+      ],
+      "tags": [
+        "creature",
+        "humanoid"
+      ]
+    },
+    
+    {
+      "count": 1,
+      "color": "darkgreen",
+      "title": "De Mendoza",
+      "icon": "eagle-emblem",
+      "contents": [
+        "subtitle | Kharisiri - Rosseau expedition ",
+        "property | Home town | Unknown",
+        "property | Description | TBD",
+        "",
+        "",
+        "bgpicture | http://127.0.0.1:8080/img/fader_martin.jpg | 114| 0.6"
+      ],
+      "tags": [
+        "creature",
+        "humanoid"
+      ]
+    },
+    
+    
+    {
+      "count": 1,
+      "color": "darkgreen",
+      "title": "Ottokar Hilscher",
+      "icon": "eagle-emblem",
+      "contents": [
+        "subtitle | Captain - Marienburg district of ",
+        "property | Home town | Unknown",
+        "property | Description | TBD",
+        "",
+        "",
+        "bgpicture | http://127.0.0.1:8080/img/fader_martin.jpg | 114| 0.6"
+      ],
+      "tags": [
+        "creature",
+        "humanoid"
+      ]
+    },
+    
+    
+    
+    
+      {
+      "count": 1,
+      "color": "darkgreen",
+      "title": "Lubin Erlach",
+      "icon": "eagle-emblem",
+      "contents": [
+        "subtitle | District Chief - Vlakland ",
+        "property | Home town | Unknown",
+        "property | Description | TBD",
+        "",
+        "",
+        "bgpicture | http://127.0.0.1:8080/img/fader_martin.jpg | 114| 0.6"
+      ],
+      "tags": [
+        "creature",
+        "humanoid"
+      ]
+    },
+    
+    {
+      "count": 1,
+      "color": "darkgreen",
+      "title": "Hartmut Fellerer",
+      "icon": "eagle-emblem",
+      "contents": [
+        "subtitle | Prisoner - Marienburg",
+        "property | Home town | Unknown",
+        "property | Description | TBD",
+        "",
+        "",
+        "bgpicture | http://127.0.0.1:8080/img/fader_martin.jpg | 114| 0.6"
+      ],
+      "tags": [
+        "creature",
+        "humanoid"
+      ]
+    },
+    
+    
+    {
+      "count": 1,
+      "color": "darkgreen",
+      "title": "Linde Hauck",
+      "icon": "eagle-emblem",
+      "contents": [
+        "subtitle | Reporter- Marienburg paper",
+        "property | Home town | Unknown",
+        "property | Description | TBD",
+        "",
+        "",
+        "bgpicture | http://127.0.0.1:8080/img/fader_martin.jpg | 114| 0.6"
+      ],
+      "tags": [
+        "creature",
+        "humanoid"
+      ]
+    },
+    
+    
+    
+      {
+      "count": 1,
+      "color": "darkgreen",
+      "title": "Sonny Rags",
+      "icon": "eagle-emblem",
+      "contents": [
+        "subtitle | Squatter",
+        "property | Home town | Marienburg",
+        "property | Description | TBD",
+        "",
+        "",
+        "bgpicture | http://127.0.0.1:8080/img/fader_martin.jpg | 114| 0.6"
+      ],
+      "tags": [
+        "creature",
+        "humanoid"
+      ]
+    },
+    
+    {
+      "count": 1,
+      "color": "darkgreen",
+      "title": "Raynald Verstand",
+      "icon": "eagle-emblem",
+      "contents": [
+        "subtitle | Servant",
+        "property | Home town | Marienburg",
+        "property | Description | TBD",
+        "",
+        "",
+        "bgpicture | http://127.0.0.1:8080/img/fader_martin.jpg | 114| 0.6"
+      ],
+      "tags": [
+        "creature",
+        "humanoid"
+      ]
+    },
+    
+    
+    {
+      "count": 1,
+      "color": "darkgreen",
+      "title": "Heinrich Steele",
+      "icon": "eagle-emblem",
+      "contents": [
+        "subtitle | Bodyguard for Erica Von Scharf",
+        "property | Home town | Marienburg",
+        "property | Description | TBD",
+        "",
+        "",
+        "bgpicture | http://127.0.0.1:8080/img/fader_martin.jpg | 114| 0.6"
+      ],
+      "tags": [
+        "creature",
+        "humanoid"
+      ]
+    },
+    
+    
+    
+    {
+      "count": 1,
+      "color": "darkgreen",
+      "title": "Ernst Maler",
+      "icon": "eagle-emblem",
+      "contents": [
+        "subtitle | Charge d'affairs for Erica Von Scharf",
+        "property | Home town | Marienburg",
+        "property | Description | TBD",
+        "",
+        "",
+        "bgpicture | http://127.0.0.1:8080/img/fader_martin.jpg | 114| 0.6"
+      ],
+      "tags": [
+        "creature",
+        "humanoid"
+      ]
+    },
+]
